@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Footer.css';
 
 
@@ -15,7 +17,7 @@ const Footer = () => {
             <a href="mailto:emeric.pataut@gmail.com">emeric.pataut@gmail.com</a>
           </p>
           <p>
-            <a href="#">Mentions légales</a>
+            <Link to="/mentions-legales">Mentions légales</Link>
           </p>
         </div>
 

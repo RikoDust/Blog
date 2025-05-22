@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Header.css'
 
 
@@ -6,7 +8,7 @@ const Header = () => {
   return (
     <header className="navbar">
       <div className="nav-left">
-        <a href="index.html">Accueil Blog</a>
+        <Link to="/">Accueil Blog</Link>
         <a
           href="https://www.epataut.fr/"
           target="_blank"
