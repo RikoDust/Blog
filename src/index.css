@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+main{
+  min-height:720px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em;
+}
