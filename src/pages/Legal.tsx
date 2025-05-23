@@ -1,15 +1,11 @@
-
+import Mentions from '../components/Mentions/Mentions';
 
 
 
 const Legal = () => {
   return (
     <div>
-      <h1>Page mentions legales</h1>
-
-
-
-
+      <Mentions />
 
     </div>
   );

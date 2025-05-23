@@ -1,0 +1,33 @@
+.mentions-container {
+  max-width: 1024px;
+  margin: 2em auto;
+  padding: 1em;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.mentions-container h1 {
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-size: 2rem;
+}
+
+.mentions-container section {
+  margin-bottom: 2em;
+}
+
+.mentions-container h2 {
+  font-size: 1.3rem;
+  color: #00567a;
+  margin-bottom: 0.5em;
+}
+
+.mentions-container a {
+  color: #00567a;
+  text-decoration: none;
+}
+
+.mentions-container a:hover {
+  text-decoration: underline;
+}
