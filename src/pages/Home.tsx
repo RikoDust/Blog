@@ -1,10 +1,18 @@
-const Home = () => {
-  return (
-    <div>
-      <h1>Page accueil blog</h1>
+import Presentation from '../components/Presentation/Presentation';
 
-    </div>
-  );
+
+const Home = () => {
+    return (
+        <div>
+            <Presentation />
+            
+        </div>
+    );
 };
+
+
+
+
+
 
 export default Home;
