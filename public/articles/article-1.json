@@ -1,5 +1,6 @@
 
 {
+  "_comment": "Article 001 - Présentation de qui je suis",
   "id": "article-1",
   "title": "Qui suis-je ? Un développeur passionné par la création et l'utilité",
   "tags": ["Présentation", "Portait"],
@@ -10,7 +11,7 @@
   "image": "/images/picture_article-1.png",
   "summary": ["Introduction", "Avantages", "Exemple"],
   "content": {
-    "intro": "TypeScript est un sur-ensemble de JavaScript...",
+    "introduction": "TypeScript est un sur-ensemble de JavaScript...",
     "avantages": "Les avantages incluent...",
     "exemple": "let msg: string = 'Hello';"
   }

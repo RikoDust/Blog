@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
+
 import './Article.css';
 
-// déclaration typage
+
 type ArticleData = {
   id: string;
   title: string;
@@ -11,15 +12,11 @@ type ArticleData = {
   author: string;
   date: string;
   banner: string;
-  summary: string[];
-  content: {
-    intro: string;
-    avantages: string;
-    exemple: string;
-  };
+  excerpt: string;
+  image: string;
+  summary: string[]; // ex: ["Introduction", "Avantages", "Exemple", "Conclusion"]
+  content: Record<string, string>; // clé dynamique, ex: { intro: "...", avantages: "...", ... }
 };
-
-
 
 export default function Article() {
   const { id } = useParams<{ id: string }>();
@@ -32,9 +29,7 @@ export default function Article() {
       .catch((err) => console.error("Erreur chargement article :", err));
   }, [id]);
 
-
   if (!article) return <p>Chargement...</p>;
-
 
   return (
     <>
@@ -45,11 +40,13 @@ export default function Article() {
       <section className="article-container">
         <article className="article-box">
           <h1>{article.title}</h1>
+
           <div className="tags">
             {article.tags.map((tag) => (
               <span key={tag}>#{tag}</span>
             ))}
           </div>
+
           <div className="meta">
             <span>Par <strong>{article.author}</strong></span> | <span>{article.date}</span>
           </div>
@@ -58,27 +55,33 @@ export default function Article() {
             <h2>Sommaire</h2>
             <ul>
               {article.summary.map((item) => (
-                <li key={item}><a href={`#${item.toLowerCase()}`}>{item}</a></li>
+                <li key={item}>
+                  <a href={`#${item.toLowerCase()}`}>{item}</a>
+                </li>
               ))}
             </ul>
           </div>
 
-          <section id="intro">
-            <h2>Introduction</h2>
-            <p>{article.content.intro}</p>
-          </section>
+          {article.summary.map((title) => {
+            const key = title.toLowerCase();
+            const content = article.content[key];
 
-          <section id="avantages">
-            <h2>Avantages</h2>
-            <p>{article.content.avantages}</p>
-          </section>
+            if (!content) return null;
 
-          <section id="exemple">
-            <h2>Exemple d'utilisation</h2>
-            <pre><code>{article.content.exemple}</code></pre>
-          </section>
+            return (
+              <section key={key} id={key}>
+                <h2>{title}</h2>
+                {key === 'exemple' ? (
+                  <pre><code>{content}</code></pre>
+                ) : (
+                  <p>{content}</p>
+                )}
+              </section>
+            );
+          })}
         </article>
       </section>
     </>
   );
 }
+

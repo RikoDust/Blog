@@ -9,10 +9,12 @@
   "banner": "/images/banner.jpg",
   "excerpt": "Présentation de TypeScript...",
   "image": "/images/typescript.jpg",
-  "summary": ["Introduction", "Avantages", "Exemple"],
+  "summary": ["Introduction", "Avantages", "Exemple", "Conclusion", "Plus"],
   "content": {
-    "intro": "Decouvrez mon projet",
+    "introduction": "Decouvrez mon projet",
     "avantages": "Les avantages sont",
-    "exemple": "let msg: string = 'Hello';"
+    "exemple": "let msg: string = 'Hello';",
+    "conclusion": "Voici mon article",
+    "plus": "tips poue la suite"
   }
 }
