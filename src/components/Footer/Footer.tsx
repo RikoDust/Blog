@@ -14,9 +14,6 @@ const Footer = () => {
           <p>Emeric Pataut</p>
           <p>Développeur Web</p>
           <p>
-            <a href="mailto:emeric.pataut@gmail.com">emeric.pataut@gmail.com</a>
-          </p>
-          <p>
             <Link to="/mentions-legales">Mentions légales</Link>
           </p>
         </div>
@@ -24,8 +21,11 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Liens / Contact</h3>
           <p>
+            <a href="mailto:emeric.pataut@gmail.com">emeric.pataut@gmail.com</a>
+          </p>
+          <p>
             <a href="https://www.epataut.fr/" target="_blank" rel="noopener noreferrer">
-              Portfolio
+              Lien vers Portfolio
             </a>
           </p>
           <p>
