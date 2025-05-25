@@ -8,9 +8,10 @@ const Header = () => {
   return (
     <header className="navbar">
       <div className="nav-left">
-        <Link to="/">Accueil Blog</Link>
+        <Link className='nav-link' to="/">Accueil Blog</Link>
         <a
           href="https://www.epataut.fr/"
+          className='nav-link'
           target="_blank"
           rel="noopener noreferrer"
         >

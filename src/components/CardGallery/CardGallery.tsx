@@ -46,6 +46,7 @@ const CardGallery = () => {
         <Link key={article.id} to={`/article/${article.id}`} className="card">
           <img src={article.image} alt={`Illustration de ${article.title}`} />
           <div className="card-content">
+            <p className='date'>{article.date}</p>
             <h3>{article.title}</h3>
             <div className="tags">
               {article.tags.map((tag, i) => (
