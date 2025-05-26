@@ -9,10 +9,12 @@
   "banner": "/images/picture_article-1.png",
   "excerpt": "Premier article afin de me presenter en tant que développeur mais également en tant que personne",
   "image": "/images/picture_article-1.png",
-  "summary": ["Introduction", "Avantages", "Exemple"],
+  "summary": ["Découverte du code", "Ma formation", "Apprentissage continu", "Ma vision", "Conclusion" ],
   "content": {
-    "introduction": "TypeScript est un sur-ensemble de JavaScript...",
-    "avantages": "Les avantages incluent...",
-    "exemple": "let msg: string = 'Hello';"
+    "découverte du code": "J’ai découvert le développement Web et le code de manière totalement autodidacte, poussé par la curiosité. \n En explorant un peu par moi-même, j’ai commencé à apprendre les bases (HTML, CSS et un peu de JavaScript) et très vite, j’ai accroché. Ce que j’aimais, c’était la combinaison entre logique et créativité, mais surtout la possibilité de construire quelque chose de concret, d’utile, à partir de zéro.",
+    "ma formation": "Afin de renforcer mes premiers acquis, j’ai décidé de structurer mon apprentissage en suivant une formation de Développeur Intégrateur Web avec OpenClassrooms, sur une période de 9 mois. \n Ce parcours m’a permis de travailler sur des projets concrets. J’ai pu aborder plusieurs technologies comme React ou Sass, mais également acquérir des compétences telles que l’optimisation, le référencement ou encore le débogage, par le biais de la réalisation de 12 projets. \n C’est en réalisant ces projets que j’ai compris que c’était plus qu’une passion, et que je voulais vraiment en faire mon métier : plus j’avançais, plus je prenais plaisir à résoudre les défis techniques et à voir mes idées prendre forme.",
+    "apprentissage continu": "Même après cette formation, je continue à apprendre en autonomie. Je suis régulièrement des cours en ligne, notamment sur OpenClassrooms, Udemy ou encore… J’utilise également des applications mobiles comme Mimo et Memrise. \n En ce moment, j’approfondis TypeScript pour renforcer mes compétences, et je souhaite à l’avenir explorer davantage le back-end. \n Aujourd’hui, je travaille surtout avec JavaScript, React et Sass, des technologies que j’apprécie pour leur flexibilité et leur richesse.",
+    "ma vision": "Je me considère pour l’instant comme un développeur front-end, en constante évolution. Ce qui m’anime dans ce métier, c’est la création, la résolution de problèmes et la mise en œuvre de solutions utiles. J’aime l’idée de répondre à des besoins réels avec des outils simples, accessibles et bien pensés. \n Je n’ai pas de figure d’inspiration particulière. Mon parcours est façonné par mon envie d’apprendre, de comprendre et d’améliorer mes compétences, pas à pas. Ce qui me définit, c’est ma curiosité, mon investissement personnel et ma volonté de faire les choses avec sens.",
+    "conclusion": "Je suis encore en chemin, toujours en train d’apprendre, mais plus motivé que jamais. Ce blog est une façon pour moi de partager cette aventure, de raconter ce que j’apprends, ce que je découvre et ce que je construis. \n Si je devais me résumer en quelques mots : curieux, investi, créatif et tourné vers l’utile, sans oublier de mettre en avant l’humain."
   }
 }

@@ -41,6 +41,9 @@ body.dark-mode .tags span {
   background: linear-gradient(90deg, #66aaff, #225599);
 }
 
-
+body.dark-mode .title-chapter,
+body.dark-mode .summary-item{
+  color: #225599;
+}
 
 

@@ -55,7 +55,7 @@ export default function Article() {
             <h2>Sommaire</h2>
             <ul>
               {article.summary.map((item) => (
-                <li key={item}>
+                <li className='summary-item' key={item}>
                   <a href={`#${item.toLowerCase()}`}>{item}</a>
                 </li>
               ))}
@@ -70,11 +70,13 @@ export default function Article() {
 
             return (
               <section key={key} id={key}>
-                <h2>{title}</h2>
+                <h2 className='title-chapter'>{title}</h2>
                 {key === 'exemple' ? (
                   <pre><code>{content}</code></pre>
                 ) : (
-                  <p>{content}</p>
+                  content.split('\n').map((line, index) => (
+                    <p key={index}>{line}</p>
+                  ))
                 )}
               </section>
             );
