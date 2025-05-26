@@ -3,8 +3,9 @@ body {
   margin: 0;
   background-color: #f5f5f5;
   color: #333;
-  transition: background 0.3s, color 0.3s;
+  transition: background-color 0.4s, color 0.4s;
 }
+
 
 main{
   min-height:720px;
@@ -13,6 +14,32 @@ main{
   padding: 1em;
 }
 
+
+
+
+
+
+
+/* MODE SOMBRE */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+
+body.dark-mode .card,
+body.dark-mode .article-box,
+body.dark-mode .mentions-container,
+body.dark-mode .summary-box {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .tags span {
+  background: linear-gradient(90deg, #66aaff, #225599);
+}
 
 
 
