@@ -4,19 +4,25 @@ import { useTheme } from '../../context/useThem';
 
 import './Header.css';
 
+
+
+
 const Header = () => {
+  // Récupération du thème actuel et de la fonction basculer
   const { toggleTheme, theme } = useTheme();
 
+  // Premier useEffect : gérer le clic sur le bouton de changement de thème
   useEffect(() => {
     const themeBtn = document.getElementById('toggle-theme');
-
+    // Fonction déclenchée au clic
     const handleClick = () => {
       toggleTheme(); 
     };
-
+    // Ajouter l'écouteur d'événement si le bouton existe
     if (themeBtn) {
       themeBtn.addEventListener('click', handleClick);
     }
+
 
     return () => {
       if (themeBtn) {
@@ -25,12 +31,17 @@ const Header = () => {
     };
   }, [toggleTheme]);
 
+  // Deuxième useEffect : mettre à jour l’icône selon thème actif
   useEffect(() => {
     const icon = document.querySelector('#toggle-theme i');
     if (icon) {
+      // Change la classe de l’icône : thème sombre, thème clair
       icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
     }
   }, [theme]);
+
+
+
 
 
   return (
@@ -55,5 +66,10 @@ const Header = () => {
     </header>
   );
 };
+
+
+
+
+
 
 export default Header;

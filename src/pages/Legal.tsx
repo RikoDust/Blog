@@ -6,7 +6,6 @@ const Legal = () => {
   return (
     <div>
       <Mentions />
-
     </div>
   );
 };

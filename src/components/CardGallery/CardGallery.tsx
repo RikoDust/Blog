@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import './CardGallery.css';
 
 
-// Déclaration typage
+
+// Définition des types pour typer les données des articles
 type Article = {
   id: string;
   title: string;
@@ -22,13 +23,14 @@ const CardGallery = () => {
   const [articles, setArticles] = useState<Article[]>([]);
 
   useEffect(() => {
-    // Charger l'index
+    // A la création du composant, charger la liste des IDs d'articles
     fetch('/articles/index.json')
       .then(res => res.json())
       .then(ids =>
+        // Charger chaque article
         Promise.all(
           ids.map((id: string) =>
-            fetch(`/articles/${id}.json`)
+            fetch(`/articles/${id}.json`) // Charger chaque fichier JSON des articles
               .then(res => res.json())
               .catch(() => null)
           )
@@ -39,6 +41,9 @@ const CardGallery = () => {
         setArticles(filtered);
       });
   }, []);
+
+
+
 
   return (
     <section className="articles">
@@ -60,6 +65,7 @@ const CardGallery = () => {
     </section>
   );
 };
+
 
 
 
