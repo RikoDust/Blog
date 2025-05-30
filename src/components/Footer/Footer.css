@@ -3,7 +3,8 @@
 .footer {
   background: linear-gradient(90deg, #00567a, #002230);
   color: white;
-  padding: 2em 1em;
+  /*padding: 2em 1em;*/
+  padding-bottom: 1em;
   padding-top: 0;
   width: 100%;
 }
@@ -33,7 +34,7 @@
   color: white;
   text-decoration: none;
   margin-top: 10px;
-  margin-bottom: 0.2em; /* espace réduit entre les éléments */
+  margin-bottom: 0.2em;
   font-size: 0.95em;
 }
 

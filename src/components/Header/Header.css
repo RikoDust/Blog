@@ -22,7 +22,8 @@
             text-decoration: none;
             color: white;
             margin-right: 1em;
-            font-size: 1.5rem;
+            font-size: 1.6rem;
+            font-weight: 600;
             position: relative;
 
             &::before {
