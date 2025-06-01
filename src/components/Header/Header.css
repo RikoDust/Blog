@@ -1,3 +1,4 @@
+/* HEADER */
 
 
 .navbar {
@@ -14,7 +15,6 @@
   flex-direction: row;
   align-items: center;
 }
-
 
 .nav-link {
             display:flex;
@@ -48,7 +48,7 @@
 
 
 
-
+/* Bouton mode clair/sombre */
 
 .nav-right button {
   background: #00567a;
@@ -65,3 +65,24 @@
   align-items: center;
   justify-content: center;
 }
+
+
+
+
+
+
+
+/*** VERSION MOBILE - 767px ***/
+
+@media (max-width: 767px) {
+  .nav-link {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .nav-right button {
+    margin-top: 0.4em;
+  }
+}
+
+
+

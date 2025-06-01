@@ -1,4 +1,5 @@
 /* Section de présentation */
+
 .presentation {
   display: flex;
   flex-direction: column;
@@ -18,3 +19,27 @@
   margin-top: 1em;
   max-width: 1000px;
 }
+
+
+
+
+
+/*** VERSION MOBILE - 767px ***/
+
+@media (max-width: 767px) {
+  .presentation {
+    margin-bottom: 0;
+  }
+  .presentation h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+  .presentation h2 {
+    font-size: 1.1rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 0;
+  }
+
+}
+

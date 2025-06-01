@@ -1,3 +1,5 @@
+
+
 /* Bannière */
 .banner {
   width: 100%;
@@ -16,6 +18,7 @@
   z-index: -1;
 }
 
+
 /* Article Container */
 .article-container {
   max-width: 1024px;
@@ -31,6 +34,7 @@
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
 }
+
 
 /* Article content */
 .article-box h1 {
@@ -51,6 +55,7 @@
 .tags{
   margin-bottom:1rem;
 }
+
 
 
 
@@ -82,3 +87,6 @@
   text-decoration: none;
   color: #00567a;
 }
+
+
+
