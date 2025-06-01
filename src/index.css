@@ -28,18 +28,26 @@ body.dark-mode {
 }
 
 
+
 body.dark-mode .card,
 body.dark-mode .article-box,
-body.dark-mode .mentions-container,
-body.dark-mode .summary-box {
+body.dark-mode .mentions-container{
   background-color: #1e1e1e;
   color: #f0f0f0;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
 }
 
-body.dark-mode .tags span {
+
+body.dark-mode .tags span,
+body.dark-mode .summary-box {
   background: linear-gradient(90deg, #66aaff, #225599);
 }
+
+.summary-item {
+  color: darkblue;
+}
+
+
 
 body.dark-mode .title-chapter,
 body.dark-mode .summary-item{
