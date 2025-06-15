@@ -59,7 +59,7 @@ const Header = () => {
       </div>
 
       <div className="nav-right">
-        <button id="toggle-theme">
+        <button aria-label='Bouton dark mode' id="toggle-theme">
           <i className="fas fa-moon"></i>
         </button>
       </div>
