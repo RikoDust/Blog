@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 // Import pour récupérer les paramètres de l'URL (ici l'id de l'article)
 import { useParams } from 'react-router-dom';
 
+import ScrollToTopButton from '../components/ScrollToTopButton/ScrollToTopButton';
+
 
 import './Article.css';
 
@@ -52,6 +54,7 @@ export default function Article() {
         <img src={article.banner} alt="Bannière de l'article" />
       </section>
 
+      <div className="article-wrapper">
       <section className="article-container">
         <article className="article-box">
           <h1>{article.title}</h1>
@@ -98,6 +101,10 @@ export default function Article() {
           })}
         </article>
       </section>
+
+        <ScrollToTopButton />
+        
+      </div>
     </>
   );
 }

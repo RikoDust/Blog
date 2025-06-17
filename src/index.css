@@ -55,3 +55,8 @@ body.dark-mode .summary-item{
 }
 
 
+
+
+body.dark-mode .scroll-to-top{
+  background: linear-gradient(90deg, #66aaff, #225599);
+}
