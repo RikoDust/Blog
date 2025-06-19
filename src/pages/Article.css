@@ -75,7 +75,7 @@
 .summary-box {
   background: #eaf1f7;
   padding: 1em;
-  border-left: 4px solid #00567a;
+  border-left: 6px solid #00567a;
   margin-bottom: 2em;
   border-radius: 6px;
 }
@@ -92,7 +92,7 @@
 
 .summary-box li a {
   text-decoration: none;
-  color: #00567a;
+  color: #002230;
 }
 
 
