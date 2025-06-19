@@ -54,6 +54,9 @@ body.dark-mode .summary-item{
   color: #225599;
 }
 
+body.dark-mode .nav-right button{
+  background-color: #66aaff;
+}
 
 body.dark-mode footer, body.dark-mode header{
   background: linear-gradient(90deg, #66aaff, #225599);
