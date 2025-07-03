@@ -1,0 +1,20 @@
+
+{
+  "_comment": "Article 002 - Portfolio",
+  "id": "article-2",
+  "title": "Mon Portfolio, premier projet personnel",
+  "tags": ["Portfolio", "Projets", "React"],
+  "author": "Emeric Pataut",
+  "date": "3 juillet 2025",
+  "banner": "/images/picture_article-2.webp",
+  "excerpt": "Dans cet article, je vous partage mon expérience de création de portfolio, entre liberté créative et contraintes techniques",
+  "image": "/images/picture_article-2.webp",
+  "summary": ["Introduction", "Contexte", "La Stack", "Conclusion" ],
+  "content": {
+    "introduction": "Dans cet article, je vais vous présenter mon portfolio, comment je l’ai pensé et développé. C’est un projet particulier, car il s’agit d’un projet dans lequel il faut se présenter et mettre en avant ses projets. \n Cela change des projets sur lesquels on travaille depuis une maquette et un cahier des charges. C’était pour moi le premier projet avec un peu de liberté.",
+    "contexte": "J’ai réalisé mon portfolio dans le but de mettre en avant mes compétences en développement web ainsi que de présenter quelques projets. Le but d’un portfolio, quoi. \n Il a été réalisé comme un projet dans le cadre de ma formation, avec des contraintes de temps à respecter. Pour répondre aux attentes tout en gardant un résultat personnel, j’ai adapté un projet que j’avais déjà réalisé, en modifiant la structure ainsi que le design. \n C’était mon premier projet sans me baser sur une maquette fournie, ce qui m’a permis d’exprimer ma créativité dans la présentation de mes projets.",
+    "la stack": "Pour mon portfolio, j’ai choisi une stack simple mais efficace : \n- React : Parce que j’apprécie la manière dont on peut organiser une interface en composants. Cela me permet de structurer le code de façon claire et réutilisable. \n- Sass : Pour styliser l’interface avec plus de flexibilité qu’en CSS natif, notamment grâce à la gestion des variables, des mixins et d’une hiérarchie claire. \n- Vercel : Pour l’hébergement, car il offre un déploiement rapide et fluide, parfait pour ce type de projet. \n Côté contenu, j’ai intégré trois grandes sections : \n- Une présentation personnelle en tant que développeur \n- Une liste de projets détaillés, chacun accompagné des technologies utilisées, d’un aperçu visuel, d’un lien vers le site en ligne et vers le repository GitHub \n- Un formulaire de contact, simple et fonctionnel, pour que les visiteurs puissent facilement me joindre \n Enfin, un lien a été ajouté à mon portfolio afin de pouvoir accéder au présent blog.",
+    "conclusion": "Ce portfolio est mon premier portfolio. Il m’a permis de consolider mes bases, de réfléchir à la façon de me présenter en tant que développeur et également de mettre en avant mes projets. \n Il sera sûrement amené à évoluer au fil du temps, avec de nouveaux projets, de nouvelles sections ou encore une nouvelle présentation. \n En attendant, si vous souhaitez y jeter un œil et me faire un retour, n’hésitez pas ! \n Voici le lien : <a href=\"https://www.epataut.fr\" target=\"_blank\" rel=\"noopener noreferrer\">www.epataut.fr</a>"
+  }
+}
+
