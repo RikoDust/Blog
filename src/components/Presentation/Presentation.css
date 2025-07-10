@@ -28,7 +28,7 @@
 
 @media (max-width: 767px) {
   .presentation {
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
   }
   .presentation h1 {
     font-size: 1.6rem;
