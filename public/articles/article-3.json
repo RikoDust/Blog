@@ -1,0 +1,18 @@
+{
+  "_comment": "Article 003 - Double Clock",
+  "id": "article-3",
+  "title": "Application Double Clock",
+  "tags": ["Javascript", "Projets", "React"],
+  "author": "Emeric Pataut",
+  "date": "2 aout 2025",
+  "banner": "/images/picture_article-3.webp",
+  "excerpt": "Une double horloge pour connaître l’heure ici et ailleurs, en un coup d'œil. \n Simple, autonome et pensée pour mieux comprendre les fuseaux horaires.",
+  "image": "/images/picture_article-3.webp",
+  "summary": ["Introduction", "Conception & intention", "Focus technique : JavaScript", "Conclusion" ],
+  "content": {
+    "introduction": "L’idée de cette application ne vient pas d’un besoin personnel, mais d’une réflexion simple : quand on connaît quelqu’un à l’étranger, il est souvent difficile de savoir quand l’appeler sans risquer de le déranger. On ne pense pas toujours au décalage horaire, surtout quand il varie selon les saisons. \n J’ai donc voulu créer une application simple, qui permet de connaître en un coup d'œil l’heure qu’il est dans un autre pays. Elle peut être utile aussi bien pour les voyageurs, que pour ceux qui travaillent avec des personnes à l’international, ou tout simplement pour les curieux qui veulent savoir quelle heure il est ailleurs dans le monde.",
+    "conception & intention": "Pour cette application, j’ai voulu garder un design simple et clair. L’idée était d’avoir deux horloges classiques : l’une pour l’heure locale, et l’autre pour l’heure d’un pays sélectionné. L’objectif était que les heures soient immédiatement lisibles, sans surcharge visuelle. \n J’ai aussi voulu donner un aspect un peu pédagogique. Tous les pays ne changent pas d’heure l’été, et cela peut créer des décalages inattendus. En utilisant l’application, on peut facilement remarquer ces différences et mieux les comprendre.",
+    "focus technique : javascript": "Ce projet m’a permis d’approfondir plusieurs aspects du JavaScript, notamment le formatage de l’heure et la gestion des fuseaux horaires. J’ai appris comment afficher l’heure exacte pour n’importe quel fuseau horaire et mettre à jour l’affichage en temps réel. \n Au départ, je pensais utiliser une API externe pour récupérer l’heure, mais j’ai réalisé que je pouvais tout calculer directement avec JavaScript. Cela rend l’application complètement autonome, sans dépendance extérieure, ce qui est un vrai plus. \n Pour le futur, j’aimerais ajouter une carte qui afficherait la position de l’utilisateur (heure locale) et celle du pays sélectionné. J’envisage aussi d’élargir le choix des fuseaux horaires, car aujourd’hui l’utilisateur sélectionne dans une liste fixe.",
+    "conclusion": "Ce projet m’a permis de renforcer ma pratique du JavaScript et de développer ma logique de programmation. Concevoir une application concrète m’a aidé à mieux comprendre la gestion du temps, des fuseaux horaires. \n Cette expérience m’a donné envie de continuer à créer d’autres petites applications utiles, comme une application sur la qualité de l’air par exemple. \n Pour faire évoluer cette double horloge, j’envisage d’y ajouter l’affichage de la date, ainsi qu’une carte interactive montrant les emplacements correspondant à chaque fuseau horaire sélectionné. Il y a encore plein de pistes à explorer, et c’est motivant. \n Si vous souhaitez jeter un œil à cette application, ça se passe par là : <a href=\"https://rikodust.github.io/DoubleClock/\" target=\"_blank\" rel=\"noopener noreferrer\">DoubleClock.apps</a> "
+  }
+}
