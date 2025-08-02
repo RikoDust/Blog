@@ -6,7 +6,7 @@ const path = require("path");
 const articlesDir = path.join(__dirname, "public", "articles");
 const outputPath = path.join(__dirname, "public", "sitemap.xml");
 
-const baseUrl = "https://blog-pi-eight-5sppfyd7b5.vercel.app/"; // Remplace par ton vrai domaine si besoin
+const baseUrl = "https://blog-pi-eight-5sppfyd7b5.vercel.app/"; 
 
 const formatDate = (dateStr) => {
   const mois = {
