@@ -1,0 +1,22 @@
+
+{
+  "_comment": "Article 007 - Simpl'Games - Let's Play With Code",
+  "id": "article-7",
+  "title": "Simpl'Games - Let's Play With Code",
+  "tags": ["React", "Projets", "Games"],
+  "author": "Emeric Pataut",
+  "date": "29 novembre 2025",
+  "banner": "/images/picture_article-7.webp",
+  "excerpt": "Comment travailler sa logique Javascript avec un peu de fun !",
+  "image": "/images/picture_article-7.webp",
+  "summary": ["Coder des mini-jeux pour progresser en JavaScript", "Pourquoi ce projet ?", "Stack et structure", "Responsive et design rétro", "Jeux disponibles", "Et ensuite ?", "Prenez 5 min et venez découvrir ma création" ],
+  "content": {
+    "coder des mini-jeux pour progresser en javascript": "Quand on apprend ou bien que l’on cherche à perfectionner son JavaScript, il n’y a rien de mieux que des petits projets concrets et amusant. \n C’est dans cet esprit que j’ai lancé Simpl’Games \n Un site regroupant des mini-jeux codés en HTML, CSS et JavaScript, avec une touche rétro et un seul mot d’ordre : simplicité !",
+    "pourquoi ce projet ?": "J’avais envie de sortir un peu du cadre des projets classiques pour travailler mon JavaScript, mais avec une petite touche de fun pour m’amuser et l’envie de partager. \n Créer des mini-jeux m'oblige à gérer des événements, structurer des logiques de jeu et réfléchir en termes d’interaction et de feedback utilisateur. \n C’est une excellente manière d’apprendre et ça change des projets un peu plus « classique », sans deadline ni cahier des charges préétablit. \n Ce projet rassemble pour moi une liberté créative, du développement avec un peu plus de légèreté et du travail de logique.",
+    "stack et structure": "J’ai choisi une structure simple. \n Je l’ai développé sous React et build avec Vite. Le site est hébergé sur Vercel  \n Le site est composé d’une page principale qui présente les jeux sous forme de carte dans une galerie. \n Il y a également un formulaire de contact afin que les utilisateurs puissent faire part de leurs avis sur les jeux existant et pourquoi pas en proposer d’autres. \n Ce formulaire est géré avec EmailJS pour l’envoi des mails. (Voir précèdent article sur EmailJS) \n Enfin chaque jeu a sa propre page au sein de l’application." ,
+    "responsive et design rétro": "Même si les jeux sont simples, j’ai tenu à ce qu’ils soient responsives, pour qu’on puisse y jouer aussi bien sur mobile que sur ordinateur de bureau. \n Cela m’oblige à réfléchir à l’adaptabilité des interfaces et à faire attention aux interactions tactiles. \n Côté design, j’ai opté pour un look rétro volontairement minimaliste : \n - Typographie retro fun \n - Mise en page simple et épurée \n - Couleurs vives sur fond sombre, rappelant les années 80 \n Chaque jeu partage une base visuelle commune pour garder une cohérence, même si je me permets quelques variations selon les besoins du gameplay.",
+    "jeux disponibles": "Pour l’instant, un seul jeu est disponible : \n Devine le nombre : L’ordinateur choisit un nombre, à vous de le trouver en un minimum d’essais. \n Un autre jeu viendra prochainement sur le site. \n Il s’agira d’un jeu de rapidité afin de faire le meilleur score en un temps donné. \n D’autres jeux sont en cours d’imagination ou en phase de prototypage et viendront s’ajouter à la collection au fur et à mesure du temps.",
+    "et ensuite ?": "Je souhaite que cette application soit communautaire et pour cela j’ai ajouté un formulaire permettant aux utilisateurs de faire des remarques sur les jeux présents sur le site et proposer des idées pour les futurs jeux à venir. \n Pour les évolutions dans le futur, j’imagine ajouter avec le temps, un système de notation des jeux ou un tableau de score, par exemple. \n Cela dépendra également des retour utilisateurs",
+    "prenez 5 min et venez découvrir ma création": " <a href=\"https://simplgames.vercel.app/\" target=\"_blank\" rel=\"noopener noreferrer\">Simpl'Games</a> </i> \n <strong># Let’s play with code !</strong>"
+  }
+}
