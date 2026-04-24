@@ -29,6 +29,7 @@ Captures d'écran :
 
 **Frontend :**
 - React
+- Typescript
 - JavaScript
 - HTML
 - CSS
@@ -45,6 +46,7 @@ Captures d'écran :
 Ce que j'ai appris :
  - Intégration d'un mode "DarkMode"
  - Gestion des données d'article par un fichier JSON
+ - Développement React sous Typescript
 
 
 
